@@ -1,0 +1,26 @@
+# This file contains schedule control data for ASU that comes into device via USB disk i/f
+# This USB file is put together by backend slider tool
+# File name in USB: ASU_control_data.act_usb.txt
+# File name in eMMC control directory: ASU_control_data.act.txt
+
+RECORD_TYPE = C
+
+# Schedule ID (allowed range: 01-99)
+SCHEDULE_ID = 02
+
+# Recognized time zones: EST-NY, CST-IL, MST-CO, MST-AZ, PST-CA, AST-AK, HST-HI
+TIME_ZONE = PST-CA
+
+# SLOT_DATA = slot_number, start_time, recording_time_mins, channel, sampling_rate_index,
+# AI algorithm_index, model_detection_threshold_value, human-readable_csv_threshold_value
+SLOT_DATA = 01,16:00,120,2,3,2,20,20
+SLOT_DATA = 02,19:00,120,2,3,2,20,20
+SLOT_DATA = 03,22:00,120,2,3,2,20,20
+SLOT_DATA = 04,01:00,120,2,3,2,20,20
+SLOT_DATA = 05,04:00,120,2,3,2,20,20
+
+# Last record must be FILE_KEY record. Acceptable values are NULL=no key or SHA256 string of 
+# full text file until the file key record including all comments. Everything else is ignored
+# after the last record
+
+FILE_KEY = NULL

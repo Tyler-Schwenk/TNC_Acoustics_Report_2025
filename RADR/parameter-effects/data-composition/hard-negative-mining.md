@@ -73,40 +73,6 @@ Interpretation: Hard negatives reliably improve validation metrics, but OOD gene
 
 ***
 
-#### Recommendations
-
-**Use in Production**
-
-* **Default:** `hardneg_conf_min_85` with **large positive datasets**
-  * +5.1 OOD F1
-  * +13.1 OOD recall
-  * +3.0–3.9 IID F1
-* **Precision-critical cases:**\
-  85% negatives + medium positives (accept small F1 loss for precision gain)
-
-**Avoid**
-
-* 99% hard negatives except with Top50 positives
-* Heavy reliance on hard negatives with limited positive data
-* Treating validation gains as evidence of OOD improvement
-
-***
-
-#### Limitations
-
-* Small sample sizes (3–7 runs per configuration)
-* No formal statistical testing
-* Mining restricted to recorders 2, 9, 10
-* Potential bias from mining model (stage3\_046)
-
-**Interpret all results as directional trends, not statistically validated effects.**
-
-***
-
-### Detailed Comparison Data
-
-Full controlled comparison tables with experiment counts, mean ± std metrics, and delta calculations are shown below:
-
 {% hint style="info" %}
 Full data used for comparison is below, drawn from [stage 6](../../staged-sweeps-design/stage-6-data-composition.md) and [stage 9](../../staged-sweeps-design/stage-9.md)
 {% endhint %}

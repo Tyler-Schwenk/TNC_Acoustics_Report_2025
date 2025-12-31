@@ -2,7 +2,7 @@
 
 ## Overview
 
-Here I will compare my two new models, evaluating their performance at the task of daily presence/absence monitoring, given data from the previous year's audio monitoring.&#x20;
+Here I compare the two new models, evaluating their performance at the task of daily presence/absence monitoring, given data from the previous year's audio monitoring.&#x20;
 
 * 'Precision model' at Sensitivity: 1.5, Threshold: 0.3
 * 'F1 focused model' at Sensitivity: 0.75, Threshold: 1.0

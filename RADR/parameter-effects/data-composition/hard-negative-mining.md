@@ -2,7 +2,7 @@
 
 ### Background & Methodology
 
-We mined 20,457 negative audio files (Brad's recorders 2, 9, 10—disjoint from train/test/val) using model stage3\_046. Files were ranked by maximum false-positive confidence for RADR, creating three hardness tiers:
+We mined 20,457 negative audio files (Brad Hollingsworth's recorders 2, 9, 10—disjoint from train/test/val) using model stage3\_046. Files were ranked by maximum false-positive confidence for RADR, creating three hardness tiers:
 
 * **hardneg\_conf\_min\_50**: 1,401 files (≥50% confidence) — Largest set of confusing negatives
 * **hardneg\_conf\_min\_85**: 981 files (≥85% confidence) — subset of most confusing negatives

@@ -2,7 +2,7 @@
 
 ## Overview
 
-All of my models thus far have used the 'replace' save mode within BirdNET, which takes the BirdNET embeddings, and replaces their classifier head with my custom classifier head (a binary classifier). This section explores the idea of using the 'append' save mode, which appends my custom classifier head on top of the standard classifier that BirdNET creates over their embeddings.&#x20;
+All models thus far have used the 'replace' save mode within BirdNET, which takes the BirdNET embeddings, and replaces their classifier head with my custom classifier head (a binary classifier). This section explores the idea of using the 'append' save mode, which appends my custom classifier head on top of the standard classifier that BirdNET creates over their embeddings.&#x20;
 
 This append mode allows us to retain their 6,000+ classes with the addition of our custom RADR class.
 

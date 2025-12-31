@@ -8,3 +8,4 @@
   * [Limitations](asu-report/limitations.md)
   * [BirdNET Evaluation](asu-report/birdnet-evaluation.md)
   * [Field Guide](asu-report/field-guide.md)
+  * [Works Cited](asu-report/works-cited.md)
